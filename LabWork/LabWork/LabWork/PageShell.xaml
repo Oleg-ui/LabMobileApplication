@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pages="clr-namespace:LabWork"
+             x:Class="LabWork.PageShell">
+
+    <Shell.FlyoutHeader>
+        <StackLayout BackgroundColor="#FF1E1D47" Padding="10">
+            <Image  Source="icon.png" />
+            <Label Text="Курс валют онлайн" HorizontalOptions="Center" TextColor="White" FontSize="Large"/>
+        </StackLayout>
+    </Shell.FlyoutHeader>
+
+    <FlyoutItem Title="Валюты">
+        <ShellContent ContentTemplate="{DataTemplate pages:MainPage}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="История запросов">
+        <ShellContent ContentTemplate="{DataTemplate pages:PageRequestHistory}"/>
+    </FlyoutItem>
+
+</Shell>

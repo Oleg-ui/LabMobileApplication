@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LabWork.PageRequestHistory" Title = "История запросов">
+    <ContentPage.Content>
+        <Frame BackgroundColor="#FF33326B">
+            <StackLayout>
+                <ListView x:Name="RateInfoList" ItemsSource="{Binding}" ItemSelected="OnItemSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <ViewCell.View>
+                                    <StackLayout Orientation="Vertical">
+                                        <Label FontSize="Medium" FontAttributes="Bold" TextColor="White" Text="{Binding Timestamp}" />
+                                    </StackLayout>
+                                </ViewCell.View>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

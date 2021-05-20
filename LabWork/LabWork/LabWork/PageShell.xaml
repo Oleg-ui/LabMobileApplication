@@ -7,7 +7,7 @@
     <Shell.FlyoutHeader>
         <StackLayout BackgroundColor="#FF1E1D47" Padding="10">
             <Image  Source="icon.png" />
-            <Label Text="Курс валют онлайн" HorizontalOptions="Center" TextColor="White" FontSize="Large"/>
+            <Label Text="Курс валют" HorizontalOptions="Center" TextColor="White" FontSize="Large"/>
         </StackLayout>
     </Shell.FlyoutHeader>
 

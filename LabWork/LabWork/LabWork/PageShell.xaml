@@ -19,4 +19,8 @@
         <ShellContent ContentTemplate="{DataTemplate pages:PageRequestHistory}"/>
     </FlyoutItem>
 
+    <FlyoutItem Title="График">
+        <ShellContent ContentTemplate="{DataTemplate pages:Chart}"/>
+    </FlyoutItem>
+
 </Shell>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local = "clr-namespace: LabWork"
+             xmlns:forms="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+             x:Class="LabWork.Chart">
+    <ContentPage.Content>
+
+        <Frame BackgroundColor="#FF33326B">
+            <ScrollView>
+                <StackLayout>
+                    <forms:ChartView x:Name="Chart1" HeightRequest="500"/>
+                    <Picker TextColor="White" x:Name="pickerChart">
+                        <Picker.Items>
+                            <x:String>USD</x:String>
+                            <x:String>EUR</x:String>
+                            <x:String>GBP</x:String>
+                            <x:String>BYN</x:String>
+                            <x:String>CNY</x:String>
+                            <x:String>UAH</x:String>
+                            <x:String>AUD</x:String>
+                            <x:String>AZN</x:String>
+                            <x:String>AMD</x:String>
+                            <x:String>BGN</x:String>
+                            <x:String>BRL</x:String>
+                            <x:String>HUF</x:String>
+                            <x:String>HKD</x:String>
+                            <x:String>DKK</x:String>
+                            <x:String>INR</x:String>
+                            <x:String>KZT</x:String>
+                            <x:String>CAD</x:String>
+                            <x:String>KGS</x:String>
+                            <x:String>MDL</x:String>
+                            <x:String>NOK</x:String>
+                            <x:String>PLN</x:String>
+                            <x:String>RON</x:String>
+                            <x:String>SGD</x:String>
+                            <x:String>TJS</x:String>
+                            <x:String>TRY</x:String>
+                            <x:String>TMT</x:String>
+                            <x:String>UZS</x:String>
+                            <x:String>CZK</x:String>
+                            <x:String>SEK</x:String>
+                            <x:String>CHF</x:String>
+                            <x:String>ZAR</x:String>
+                            <x:String>KRW</x:String>
+                            <x:String>JPY</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Button Text="Обновить" Clicked="getChart" TextColor="White" BackgroundColor="#FF33326B" BorderColor="#FF5A9DB5" BorderWidth="1" />
+                </StackLayout>
+            </ScrollView>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

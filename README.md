@@ -1,3 +1,3 @@
 # LabMobileApplication
 
-![](https://tenor.com/bGg3V.gif)
+![](https://media.giphy.com/media/nWX8wI5fUp4Pqlpy2O/giphy.gif)

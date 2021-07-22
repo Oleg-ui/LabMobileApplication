@@ -1,6 +1,6 @@
 # LabMobileApplication
 
-![](https://media.giphy.com/media/Qu8kmpwQq6CPxjhJXl/giphy.gif)
+<iframe src="https://giphy.com/embed/Qu8kmpwQq6CPxjhJXl" width="480" height="262" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cat-dog-Qu8kmpwQq6CPxjhJXl">via GIPHY</a></p>
 
 
 
